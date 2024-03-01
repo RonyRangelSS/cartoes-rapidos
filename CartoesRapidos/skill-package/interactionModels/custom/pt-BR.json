@@ -1,0 +1,53 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "QuestionarioIntent",
+          "samples": [
+            "iniciar questionário",
+            "quero abrir questionário",
+            "abrir questionário"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "resposta",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "name": "RespostaIntent",
+          "samples": [
+            "acho que é {resposta}",
+            "a resposta é {resposta}",
+            "é {resposta}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "cartões rápidos"
+    }
+  }
+}
